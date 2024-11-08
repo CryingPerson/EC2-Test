@@ -9,7 +9,7 @@ import java.util.Map;
 public class WebController {
 
     @GetMapping("api/v1")
-    public Map<String, String> chech(){
+    public Map<String, String> chech() {
 
         return Map.of("hello", "world");
     }
